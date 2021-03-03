@@ -160,7 +160,7 @@
     <PreBuildEvent />
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>cd $(SolutionDir)$(ProjectName) &amp;&amp; copy settings.json $(TargetDir)settings.json &amp;&amp; cd $(TargetDir)..\..\..\..\powerapps-typescript\deployer\ &amp;&amp; del * /q &amp;&amp; cd $(TargetDir) &amp;&amp; xcopy /s *.dll ..\..\..\..\powerapps-typescript\deployer\ &amp;&amp; xcopy /s *.exe ..\..\..\..\powerapps-typescript\deployer\</PostBuildEvent>
+    <PostBuildEvent>cd $(SolutionDir)$(ProjectName) &amp;&amp; copy settings.json $(TargetDir)settings.json &amp;&amp; cd $(TargetDir)..\..\..\..\powerapps-typescript\deployer\ &amp;&amp; del * /q &amp;&amp; cd $(TargetDir) &amp;&amp; xcopy /s *.dll ..\..\..\..\powerapps-typescript\deployer\ &amp;&amp; xcopy /s *.exe ..\..\..\..\powerapps-typescript\deployer\ &amp;&amp; xcopy /s *.json ..\..\..\..\powerapps-typescript\deployer\</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
