@@ -1,8 +1,8 @@
 {
   "working-folder": "C:/Users/Angel/Documents/repos/powerapps-typescript/dist",
-  "crm": "https://esidev.crm.dynamics.com",
-  "client-id": "1e0d70d3-adce-483f-a34d-9bd546d4b158",
-  "client-secret": "nq~9p9~L6lzOO.KOcs-Ly~2CCufR268q06",
+  "crm": "dynamics-url-here",
+  "client-id": "",
+  "client-secret": "",
   "prefix": "aoj",
   "resources": {
     "main.bundle.js": "MainModule"
